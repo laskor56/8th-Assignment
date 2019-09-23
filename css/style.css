@@ -1,0 +1,440 @@
+/* Author Info 
+Name: Sabbo Sachi Banik
+Email Add:ajoy221098@gmail.com
+Web: have not any website*/
+/*
+====Index====
+1.Fuse at
+2.Facilisis
+3.Ante donec
+4.Blandit rhoncus   
+5.Placerat
+======
+*/
+
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.no-padding{
+    padding: 0 !important;
+}
+
+ h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px auto;
+    font-family: 'Roboto Slab', serif;
+}
+ h4{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Roboto Slab',serif;
+ }
+ .img-center{
+    text-align: center;
+ }
+
+ /* End Global Css */
+
+
+
+/* Header */
+.nav-head{
+  background-color: #edeff1!important;
+  padding: 20px 0px;    
+}
+/* Navbar */
+.nav-link {
+    color: black;
+    padding: 0px 16px;
+    font-size: 18px;
+}
+
+
+.nav-link.js-scroll-trigger.active{
+    background: #dd4b2b;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 21px;
+}
+
+
+
+/*Hero Section */
+.hero{
+     background: url(../img/bnr.png) center top;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     float: left;
+}
+
+.hero-main{
+     margin-top: 200px;
+     margin-bottom: 100px;
+     text-align: center;
+     color: #fff;
+}
+ 
+ /* Hero section's contents*/
+.hero-main h1{
+              font-family: 'Roboto Slab',serif;
+              font-size: 60px;
+              padding-top: 410px;
+          }
+.hero-main h5{
+     
+     font-family: 'Roboto Slab', serif;
+     font-size: 21px;
+     }  
+.hero img {
+    display: block;
+    margin: 0px auto 25px;
+    width: 100%;
+}   
+
+.hero p {
+    
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}   
+.hero button {
+    color: #612316;
+    background: #fff;
+    display: block;
+    margin: 60px auto 110px;
+    padding: 10px 43px;
+    border-radius: 25px;
+    border: none;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 4px red;
+    background: grey;
+}
+/* Hero section End */
+
+
+
+
+/*Facilisis Section Start */
+
+
+/*facilisis head line start*/
+
+.facilis{
+    width: 100%;
+    float: left;
+    background: #edeff1;
+}
+.facilis h1 {
+    font-size: 30px;
+    text-align: center;
+    /* display: block; */
+    margin: 60px auto;
+}
+/*facilisis head line end*/
+
+
+/*facilisis contents*/
+.facilis button {
+    display: block;
+    margin: 40px auto 100px;
+    background: #fff;
+    border: none;
+    border-radius: 21px;
+    padding: 8px 31px;
+}
+
+.facilis button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 2px 4px blue;
+    background: chocolate;
+}
+.facilis p {
+    font-size: 12px;
+    text-align: center;
+}
+/*Facilisis Section End */
+
+
+/*Ante Section Start */
+
+.news{
+    background:url(../img/signup.jpg)center top;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    float: left;
+    
+}
+
+
+.news h1 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 25px;
+}
+.news p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 40px;
+    word-spacing: 4px;
+}
+
+.position{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.news input {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-left: 16%;
+    width: 60%;
+    padding: 15px 120px 15px 30px;
+    background: rgba(250,250,250,0.3);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.news button {
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    position: absolute;
+    right: 123px;
+    top: 40px;
+    color: #612316
+}
+.news button:hover{
+    color: #fff;
+    transform: scale(1.1);
+    background: blue;
+    box-shadow: 1px 2px 4px red;
+}
+
+
+/*Ante Section End */
+
+/*Blandit rhoncus section start*/
+.bland{
+    width: 100%;
+    float: left;
+}
+
+.bland h1 {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.bland p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: #948383;
+}
+
+.bland .img-top{
+    margin-top: 100px;
+}
+.left img {
+    height: 100%;
+    width: 100%;
+}
+
+.right img {
+    height: 72%;
+    width: 72%;
+}
+
+.left button {
+    display: block;
+    margin: 0px auto;
+    background: #dd4b2b;
+    color: #fff;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 20px;
+}
+
+.left button:hover{
+    transform: scale(1.1);
+    background: grey;
+    box-shadow: 1px 2px 4px red;
+}
+.right button {
+    display: block;
+    margin: 0px auto;
+    background: #4b4e73;
+    color: #fff;
+    border: none;
+    padding: 5px 40px;
+    border-radius: 20px;
+}
+
+.right button:hover{
+    transform: scale(1.1);
+    background: orange;
+    box-shadow: 1px 2px 4px maroon;
+}
+
+/*Blandit rhoncus section End*/
+
+
+
+
+
+/*Placerat section Start */
+.pla{
+    width: 100%;
+    float: left;
+    background: #d75d0e;
+    padding: 80px 0px;
+}
+.pla ul{
+    list-style: none;
+
+}
+.pla ul li {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    margin: 5px;
+}
+/*Placerat section End */
+
+
+
+
+
+/*Footer Part Start */
+
+.footer{
+    background: url(../img/newsletter.png)center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding:80px 0px 250px;
+}
+.footer p {
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}
+
+/*Footer Part End */
+
+/* Media Query */
+
+@media (min-width:320px) and (max-width: 500px){
+    
+  .logo img {
+    margin-left: 150px;
+}
+
+
+
+.nav-link.js-scroll-trigger.active {
+    padding: 3px 20px;
+    width: 103px;
+}
+.hero-main{
+     margin-top: 150px;
+     margin-bottom: 100px;
+     
+}
+
+.hero button{
+        padding: 5px 18px;
+        margin: 25px auto 75px;
+}
+.hero-main h1 {
+    font-size: 26px;
+}
+
+.facilis img {
+    display: block;
+    margin: 0 auto;
+}
+.facilis button {
+    font-size: 12px;
+    padding: 3px 10px;
+    margin: 0px auto 60px;
+}
+.news h1 {
+    font-size: 30px;
+}
+
+.news p {
+    font-size: 9px;
+}
+
+.news input {
+    padding: 5px 120px 5px 30px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+
+
+
+.news button {
+    padding: 5px 20px;
+    right: 92px;
+
+}
+
+
+.bland h1 {
+    font-size: 20px;
+}
+
+.bland p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+.left button {
+    font-size: 11px;
+    padding: 3px 20px;
+}
+
+
+
+.right button {
+    font-size: 11px;
+    margin-bottom: 35px;
+    padding: 3px 20px;
+}
+
+.pla{
+        padding: 50px 0px
+}
+
+.pla ul li {
+    font-size: 10px;
+}
+
+.footer{
+    padding: 50px 0px 150px;
+}
